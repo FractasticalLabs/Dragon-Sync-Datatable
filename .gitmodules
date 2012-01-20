@@ -1,0 +1,6 @@
+[submodule "submodules/soqlbuilder"]
+	path = submodules/soqlbuilder
+	url = https://github.com/apex-commons/SoqlBuilder.git
+[submodule "submodules/jqGrid-Salesforce"]
+	path = submodules/jqGrid-Salesforce
+	url = git@github.com:FractasticalLabs/jqGrid-Salesforce.git
