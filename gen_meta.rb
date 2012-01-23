@@ -1,7 +1,7 @@
 
 class Gen_Meta 
 
-            class_template = File.open("/Users/jdietz/tech/class_template-B/META/CLASS", "r")
+            class_template = File.open("/Users/jdietz/tech/Dragon-B/META/CLASS", "r")
             class_template_contents = class_template.sysread(class_template.stat.size)
             resource_template = File.open("/Users/jdietz/tech/Dragon-B/META/RESOURCE", "r")
             resource_template_contents = resource_template.sysread(resource_template.stat.size)
@@ -61,7 +61,10 @@ class Gen_Meta
 
             if counter==0 
                puts "No files found without metadata."
+            else
+               puts "Metadata added for " + counter.to_s + " files"
             end
+          
 
       
 
